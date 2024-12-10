@@ -1,20 +1,20 @@
 [
    {
-      "runFiles":{
-         "runStartZCoBo":"str",
-         "zCoBo":"str",
-         "firstChunk":"str",
-         "lastChunk":"str",
+      "metaData":{
+         "timeStamp":"str",
+         "firstChunk":"int",
+         "lastChunk":"int",
          "tukan":"str",
          "caen":"str",
-         "mesytec":"str"
+         "mesytec":"str",
+         "runType":"str"
       },
       "activationTarget":"num",
       "averageDaqRates":{
          "zCoBoEventsPerRun":"num",
          "zCoBoWriteRate":"num",
          "caenInputRate":"num",
-		 "tukanRate":"num",
+		   "tukanRate":"num",
          "mesytecRate":"num"
       },
       "beam":{
@@ -33,16 +33,15 @@
          "shapingTime":"num",
          "multiGrawMode":"str"
       },
-      "tpcWorkingPoint":{
+      "conditions":{
          "presetNumber":"num",
          "gem":"num",
          "tr":"num",
-         "drift":"num",
+         "driftV":"num",
          "sum":"num",
          "pbMKS626C":"num",
          "p6CMR361":"num",
          "tRpi":"num"
-      },
-      "runType":"str"
+      }
    }
 ]
